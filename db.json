@@ -1,0 +1,77 @@
+{
+  "Items" : [
+      {
+        "trackingID": "SE453574501",
+        "desc": "Sz 45 Coffee Mix Flother Italian Leather Men Penny Loafers",
+        "lastScanned": "10/06/2021 09:59:22",
+        "lastLocation": "Box 16",
+        "dept": "Men Loafers",
+        "qty": 2
+      },
+      {
+        "trackingID": "SE7EA635303",
+        "desc": "Sz 43 Blue Mckenzie Studded Fabric Leather Sneakers",
+        "lastScanned": "28/05/2021 15:28:47",
+        "lastLocation": "Box 219",
+        "dept": "Men Sneakers",
+        "qty": 8
+      },
+      {
+        "trackingID": "SE2A8005001",
+        "desc": "Sz 44 Navy Agostino Italian Leather Slippers",
+        "lastScanned": "09/06/2021 09:09:40",
+        "lastLocation": "Crate 251",
+        "dept": "Men Slippers n Sandals",
+        "qty": 4
+      },
+      {
+        "trackingID": "SE8A4E47002",
+        "desc": "Sz 40 Black Natalia Tuscany Leather Low Heel Slippers",
+        "lastScanned": "28/05/2021 17:42:18",
+        "lastLocation": "Crate 247",
+        "dept": "Women Slippers",
+        "qty": 3
+      },
+      {
+        "trackingID": "SE974E47111",
+        "desc": "Sz 45 Italian Leather Chelsea Boot",
+        "lastScanned": "28/05/2021 17:42:18",
+        "lastLocation": "Crate 100",
+        "dept": "Men Boots",
+        "qty": 1
+      },
+      {
+        "trackingID": "SE4B8215002",
+        "desc": "Sz 40 Brown Valerie Graphic Print Italian Leather Wedge",
+        "lastScanned": "23/06/2021 16:23:25",
+        "lastLocation": "Crate 99",
+        "dept": "Women Wedge Heels",
+        "qty": 2
+      },
+      {
+        "trackingID": "SE7E7259222",
+        "desc": "Sz 46 Black Marcus Italian Leather Drivers Shoe",
+        "lastScanned": "05/07/2021 11:58:30",
+        "lastLocation": "Box 151",
+        "dept": "Men Drivers",
+        "qty": 7
+      },
+      {
+        "trackingID": "se06ec73501",
+        "desc": "Sz 44 Gray Livio Italia Leather Men Brogue",
+        "lastScanned": "06/07/2021 09:29:07",
+        "lastLocation": "Crate 62",
+        "dept": "Men Laceups and Monks",
+        "qty": 4
+      },
+      {
+        "trackingID": "SE831E62002",
+        "desc": "Sz 39 Black Willow Patent Leather Low Heel Slingback Pumps",
+        "lastScanned": "06/07/2021 12:41:14",
+        "lastLocation": "Crate 157",
+        "dept": "Women Pumps",
+        "qty": 1
+      }
+   
+  ]
+}

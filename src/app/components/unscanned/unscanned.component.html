@@ -1,0 +1,31 @@
+<div class="container justify-content-center">
+   <h3> Recently Unscanned Items</h3>
+   <a routerLink="/">Back</a>
+    <div class="row">
+            <table  class="table table-striped">
+            <thead class="thead thead-dark">
+               <tr>
+                 <th>Last Scanned Date</th>
+                 <th>Department</th>
+                 <th>Tracking ID</th>
+                 <th>Description</th>
+                 <th>Qty Avail</th>
+                 <th>Last Scanned</th>
+               </tr>
+             </thead>
+             <tbody>
+             <ng-container *ngFor="let item of items">
+                  <tr>
+                     <td>{{item.lastScanned}}</td>
+                     <td>{{item.dept}}</td>
+                     <td>{{item.trackingID}}</td>
+                     <td>{{item.desc}}</td>
+                     <td>{{item.qty}}</td>
+                     <td>{{item.lastLocation}}</td>
+                  </tr>
+              </ng-container>
+               </tbody>
+         </table> 
+         
+       </div>
+    
