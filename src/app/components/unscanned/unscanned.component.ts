@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Item } from 'src/app/ItemData';
-import { MyServiceService } from 'src/app/services/my-service.service';
-import { NgxPaginationModule } from 'ngx-pagination';
-import { interval, Subscription, Observable } from 'rxjs';
+import { Shoe } from 'src/app/shoeData';
+import { ShoeServiceService } from 'src/app/services/shoe-service.service';
+
 
 @Component({
   selector: 'app-unscanned',
@@ -12,10 +11,10 @@ import { interval, Subscription, Observable } from 'rxjs';
 export class UnscannedComponent implements OnInit {
   
   
-    items:Item[] = [];
-  updateSubscription: Subscription | undefined;
+    shoes:Shoe[] = [];
+ 
 
-    constructor(private itemService:MyServiceService) { }
+    constructor(private itemService:ShoeServiceService) { }
 
     ngOnInit(): void {
     //   this.updateSubscription = interval(1000).subscribe(
@@ -25,7 +24,7 @@ export class UnscannedComponent implements OnInit {
     
     // getData(){
 
-      this.itemService.getData().subscribe((items)=> this.items = items);
+      this.itemService.getData().subscribe((shoes)=> this.shoes = shoes);
     }
   }
   

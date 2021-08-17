@@ -6,10 +6,11 @@ import { NgxPaginationModule } from 'ngx-pagination';
 
 
 import { AppComponent } from './app.component';
-import { ItemComponent } from './components/item/item.component';
 import { UnscannedComponent } from './components/unscanned/unscanned.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './components/header/header.component';
+
 
 
 const appRoutes: Routes = [
@@ -22,9 +23,10 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    ItemComponent,
     UnscannedComponent,
-    LandingComponent
+    LandingComponent,
+    HeaderComponent,
+  
   ],
   imports: [
     BrowserModule,

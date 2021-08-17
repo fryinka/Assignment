@@ -1,31 +1,51 @@
-<div class="container justify-content-center">
+<app-header></app-header>
+<br>
+<br>
+<div class="container d-flex justify-content-center mt-50 mb-50 col"> 
+  <div class="row row-cols-md-4">
+    <ng-container *ngFor="let shoe of shoes">
+  <div class="card">
+    <div class="card-body">
+    <div class="card-img-actions"> <img src="{{shoe.imageUrl}}" class="card-img img-fluid"> </div>
+    </div>
+    <div class="card-body bg-light text-center">
+        <div class="mb-2">
+            <h5 class="font-weight-semibold mb-2"> {{shoe.Title}}</h5> 
+        </div>
+        <h3 class="mb-0 font-weight-semibold">{{shoe.price}}</h3>
+       <h5> Size : {{shoe.size}} </h5>
+     
+    </div>
+</div>
+</ng-container>
+</div>
+</div>
+
+
+
+
+<!-- <div class="container justify-content-center">
    <h3> Recently Unscanned Items</h3>
    <a routerLink="/">Back</a>
     <div class="row">
             <table  class="table table-striped">
             <thead class="thead thead-dark">
                <tr>
-                 <th>Last Scanned Date</th>
-                 <th>Department</th>
-                 <th>Tracking ID</th>
-                 <th>Description</th>
-                 <th>Qty Avail</th>
-                 <th>Last Scanned</th>
+                 <th>Menu ID</th>
+                 <th>Menu Title</th>
+                 
                </tr>
              </thead>
              <tbody>
              <ng-container *ngFor="let item of items">
                   <tr>
-                     <td>{{item.lastScanned}}</td>
-                     <td>{{item.dept}}</td>
-                     <td>{{item.trackingID}}</td>
-                     <td>{{item.desc}}</td>
-                     <td>{{item.qty}}</td>
-                     <td>{{item.lastLocation}}</td>
+                     <td>{{item.Menu_Id}}</td>
+                     <td>{{item.Title}}</td>
+                    
                   </tr>
               </ng-container>
                </tbody>
          </table> 
          
        </div>
-    
+     -->

@@ -1,0 +1,103 @@
+
+.section-header {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  
+}
+body {
+  background-color: #c59146;
+  position: absolute;
+
+}
+
+.form-inputs {
+  position: relative
+}
+
+.form-inputs .form-control {
+  height: 45px
+}
+
+.form-inputs .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #000
+}
+
+.form-inputs i {
+  position: absolute;
+  right: 10px;
+  top: 15px
+}
+
+.shop-bag {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  font-size: 25px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center
+}
+
+.qty {
+  font-size: 12px
+}
+.kubona {
+  background-color: #c59146;
+  height: 7em;
+  
+}
+
+
+@media (min-width: 768px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+/* Other styles for the page not related to the animated dropdown */
