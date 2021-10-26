@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { UnscannedComponent } from './unscanned.component';
+import {ShoeServiceService} from '../../services/shoe-service.service'
 
 describe('UnscannedComponent', () => {
   let component: UnscannedComponent;
@@ -19,7 +20,15 @@ describe('UnscannedComponent', () => {
     fixture.detectChanges();
   });
 
+  beforeEach(()=>{
+    TestBed.configureTestingModule({
+      providers:[UnscannedComponent,{provide:ShoeServiceService}],
+
+    })
+  })
   it('should create', () => {
-    expect(component).toBeTruthy();
+    expect(component).toContain('Unscanned');
   });
+
+  it('')
 });

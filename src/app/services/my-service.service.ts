@@ -9,7 +9,7 @@ import { Item } from '../../app/ItemData';
 
 export class MyServiceService {
 
-  private apiURL = 'https://localhost:44353/api/menucrudapi';
+  private apiURL = 'http://localhost:2500/Items';
   getInfo: any;
 
   constructor(private http:HttpClient) { }

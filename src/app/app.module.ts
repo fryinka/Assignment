@@ -10,6 +10,7 @@ import { UnscannedComponent } from './components/unscanned/unscanned.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
+import { ShoeServiceService } from './services/shoe-service.service';
 
 
 
@@ -35,7 +36,7 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     NgxPaginationModule
   ],
-  providers: [],
+  providers: [ShoeServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
